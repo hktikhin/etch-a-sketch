@@ -1,0 +1,24 @@
+body{
+    width: auto;
+    height: auto;
+    display : grid;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.button{
+    display: grid;
+    justify-content: center;
+
+}
+.grid-container{
+    display : grid;
+    column-gap: 0rem;
+    row-gap: 0rem;
+    justify-content: center;
+    border: 0.5rem solid rgba(0, 0, 0, 0.15) ;
+}
+
+.grid-item{
+    background-color: black;
+}
